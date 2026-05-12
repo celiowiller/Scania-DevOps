@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: ubuntu-lastest # neste caso, o github vai "ligar" uma "maquina" linux par anosso pipeline
+    runs-on: ubuntu-latest # neste caso, o github vai "ligar" uma "maquina" linux par anosso pipeline
 
 steps:
     # passo 1 - baixar o código do repositorio para a "maquina" do Github
@@ -29,5 +29,5 @@ steps:
        push: true
         # aqui, o contexto "ganha" a tag 'lastest' e também uma tag com o ID do commit 
        tags: |
-          celiowillersouza/scania-devops:lastest
+          celiowillersouza/scania-devops:latest
           celiowillersouza/scania-devops:${{ github.sha }}
