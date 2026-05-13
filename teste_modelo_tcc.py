@@ -98,4 +98,4 @@ print("Com base nesses dados, a produção agrícola (em toneladas/hectare) foi 
 print("Além disso, o modelo foi utilizado para simular a produção agrícola para os próximos 5 anos, com base nas médias das variáveis climáticas atuais, gerando previsões para o período de 2025 a 2029.")
 print()
 
-# print('============ ESTAMOS TESTANDO NO PIPELINE CID/CD ==========================')
+print('============ ESTAMOS TESTANDO NO PIPELINE CID/CD ==========================')
